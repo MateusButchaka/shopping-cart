@@ -1,0 +1,15 @@
+.header {
+  background-color: rgba(89, 164, 255, 0.45); /* Cor de fundo translúcida */
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(10px); /* Prefixo para Safari e outros navegadores baseados em WebKit */
+  backdrop-filter: blur(10px); /* Efeito de desfoque */
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
